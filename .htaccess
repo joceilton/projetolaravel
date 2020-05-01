@@ -10,3 +10,5 @@ RewriteCond %{REQUEST_FILENAME} -f
 RewriteRule .? - [L]
 
 RewriteRule .? %{ENV:BASE}/app.php [L]
+
+chmod 775 /public
